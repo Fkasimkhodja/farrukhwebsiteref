@@ -1,13 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Farrukh Kasimkhodja | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Descriptive meta tags for SEO -->
+    <meta name="description" content="Portfolio website of Farrukh Kasimkhodja, a Computer Science student specializing in AI">
+    <meta name="keywords" content="portfolio, web development, AI, computer science, programming">
 </head>
 <body>
-    
-    <script src="script.js"></script>
-</body>
-</html> 
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-moon" id="dark-icon"></i>
+        <i class="fas fa-sun" id="light-icon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="logo">FK</div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="about">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Farrukh Kasimkhodja</h1>
+                    <h2>Second-Year Computer Science Student</h2>
+                    <p>Currently pursuing a BSc in Computer Science with specialization in Artificial Intelligence at the University of Hertfordshire. Passionate about technology innovation and problem-solving.</p>
+                    <div class="hero-cta">
+                        <a href="#portfolio" class="btn primary-btn">View My Work</a>
+                        <a href="#education" class="btn secondary-btn">My Education</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-details">
+                    <p>I'm a 19-year-old <strong>second-year Computer Science student</strong> specializing in Artificial Intelligence at the University of Hertfordshire. I currently reside in Hatfield, UK during the academic year and spend my holidays in Tashkent, Uzbekistan.</p>
+                    <p>My journey in technology is driven by a passion for solving real-world problems through innovative solutions. I'm particularly interested in the intersection of AI and practical applications that can enhance everyday life.</p>
+                    
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <i class="fas fa-trophy"></i>
+                            <h3>Achievements</h3>
+                            <p>Hackathon winner with innovative AI solutions</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-lightbulb"></i>
+                            <h3>Interests</h3>
+                            <p>AI, Machine Learning, and Game Development</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Education</h3>
+                            <p>BSc Computer Science (AI), University of Hertfordshire</p>
+                        </div>
+                    </div>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-title">Age:</span>
+                            <span class="info-value">19</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Education:</span>
+                            <span class="info-value">Second-year BSc Computer Science (AI), University of Hertfordshire</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Location:</span>
+                            <span class="info-value">Hatfield, UK / Tashkent, Uzbekistan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
