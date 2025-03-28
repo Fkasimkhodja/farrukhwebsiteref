@@ -99,3 +99,5 @@ function setupProjectModals() {
     };
     
     // Open modal with project data
+
+    kj
